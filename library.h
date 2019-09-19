@@ -1,0 +1,6 @@
+#ifndef FUNLEARNINGALGORITHMC_LIBRARY_H
+#define FUNLEARNINGALGORITHMC_LIBRARY_H
+
+void hello();
+
+#endif
