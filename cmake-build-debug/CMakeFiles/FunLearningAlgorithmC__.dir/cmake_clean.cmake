@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FunLearningAlgorithmC__.dir/library.cpp.o"
   "CMakeFiles/FunLearningAlgorithmC__.dir/分治法/binarySearch.cpp.o"
+  "CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.o"
   "libFunLearningAlgorithmC__.pdb"
   "libFunLearningAlgorithmC__.a"
 )

@@ -150,6 +150,33 @@ library.cpp.s:
 	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/library.cpp.s
 .PHONY : library.cpp.s
 
+分治法/MergeSort.o: 分治法/MergeSort.cpp.o
+
+.PHONY : 分治法/MergeSort.o
+
+# target to build an object file
+分治法/MergeSort.cpp.o:
+	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.o
+.PHONY : 分治法/MergeSort.cpp.o
+
+分治法/MergeSort.i: 分治法/MergeSort.cpp.i
+
+.PHONY : 分治法/MergeSort.i
+
+# target to preprocess a source file
+分治法/MergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.i
+.PHONY : 分治法/MergeSort.cpp.i
+
+分治法/MergeSort.s: 分治法/MergeSort.cpp.s
+
+.PHONY : 分治法/MergeSort.s
+
+# target to generate assembly for a file
+分治法/MergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.s
+.PHONY : 分治法/MergeSort.cpp.s
+
 分治法/binarySearch.o: 分治法/binarySearch.cpp.o
 
 .PHONY : 分治法/binarySearch.o
@@ -189,6 +216,9 @@ help:
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
+	@echo "... 分治法/MergeSort.o"
+	@echo "... 分治法/MergeSort.i"
+	@echo "... 分治法/MergeSort.s"
 	@echo "... 分治法/binarySearch.o"
 	@echo "... 分治法/binarySearch.i"
 	@echo "... 分治法/binarySearch.s"

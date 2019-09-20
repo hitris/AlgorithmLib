@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libFunLearningAlgorithmC__.a  CMakeFiles/FunLearningAlgorithmC__.dir/library.cpp.o CMakeFiles/FunLearningAlgorithmC__.dir/分治法/binarySearch.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ar qc libFunLearningAlgorithmC__.a  CMakeFiles/FunLearningAlgorithmC__.dir/library.cpp.o CMakeFiles/FunLearningAlgorithmC__.dir/分治法/binarySearch.cpp.o CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.o
 /Library/Developer/CommandLineTools/usr/bin/ranlib libFunLearningAlgorithmC__.a
