@@ -96,11 +96,25 @@ CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchangyu/CLionProjects/AlgorithmLib/分治法/MergeSort.cpp -o CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.s
 
+CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.o: CMakeFiles/FunLearningAlgorithmC__.dir/flags.make
+CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.o: ../分治法/QuickSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/liuchangyu/CLionProjects/AlgorithmLib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.o -c /Users/liuchangyu/CLionProjects/AlgorithmLib/分治法/QuickSort.cpp
+
+CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/liuchangyu/CLionProjects/AlgorithmLib/分治法/QuickSort.cpp > CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.i
+
+CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/liuchangyu/CLionProjects/AlgorithmLib/分治法/QuickSort.cpp -o CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.s
+
 # Object files for target FunLearningAlgorithmC__
 FunLearningAlgorithmC___OBJECTS = \
 "CMakeFiles/FunLearningAlgorithmC__.dir/library.cpp.o" \
 "CMakeFiles/FunLearningAlgorithmC__.dir/分治法/binarySearch.cpp.o" \
-"CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.o"
+"CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.o" \
+"CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.o"
 
 # External object files for target FunLearningAlgorithmC__
 FunLearningAlgorithmC___EXTERNAL_OBJECTS =
@@ -108,9 +122,10 @@ FunLearningAlgorithmC___EXTERNAL_OBJECTS =
 libFunLearningAlgorithmC__.a: CMakeFiles/FunLearningAlgorithmC__.dir/library.cpp.o
 libFunLearningAlgorithmC__.a: CMakeFiles/FunLearningAlgorithmC__.dir/分治法/binarySearch.cpp.o
 libFunLearningAlgorithmC__.a: CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.o
+libFunLearningAlgorithmC__.a: CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.o
 libFunLearningAlgorithmC__.a: CMakeFiles/FunLearningAlgorithmC__.dir/build.make
 libFunLearningAlgorithmC__.a: CMakeFiles/FunLearningAlgorithmC__.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liuchangyu/CLionProjects/AlgorithmLib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libFunLearningAlgorithmC__.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/liuchangyu/CLionProjects/AlgorithmLib/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libFunLearningAlgorithmC__.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/FunLearningAlgorithmC__.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FunLearningAlgorithmC__.dir/link.txt --verbose=$(VERBOSE)
 

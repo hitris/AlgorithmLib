@@ -177,6 +177,33 @@ library.cpp.s:
 	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/分治法/MergeSort.cpp.s
 .PHONY : 分治法/MergeSort.cpp.s
 
+分治法/QuickSort.o: 分治法/QuickSort.cpp.o
+
+.PHONY : 分治法/QuickSort.o
+
+# target to build an object file
+分治法/QuickSort.cpp.o:
+	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.o
+.PHONY : 分治法/QuickSort.cpp.o
+
+分治法/QuickSort.i: 分治法/QuickSort.cpp.i
+
+.PHONY : 分治法/QuickSort.i
+
+# target to preprocess a source file
+分治法/QuickSort.cpp.i:
+	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.i
+.PHONY : 分治法/QuickSort.cpp.i
+
+分治法/QuickSort.s: 分治法/QuickSort.cpp.s
+
+.PHONY : 分治法/QuickSort.s
+
+# target to generate assembly for a file
+分治法/QuickSort.cpp.s:
+	$(MAKE) -f CMakeFiles/FunLearningAlgorithmC__.dir/build.make CMakeFiles/FunLearningAlgorithmC__.dir/分治法/QuickSort.cpp.s
+.PHONY : 分治法/QuickSort.cpp.s
+
 分治法/binarySearch.o: 分治法/binarySearch.cpp.o
 
 .PHONY : 分治法/binarySearch.o
@@ -219,6 +246,9 @@ help:
 	@echo "... 分治法/MergeSort.o"
 	@echo "... 分治法/MergeSort.i"
 	@echo "... 分治法/MergeSort.s"
+	@echo "... 分治法/QuickSort.o"
+	@echo "... 分治法/QuickSort.i"
+	@echo "... 分治法/QuickSort.s"
 	@echo "... 分治法/binarySearch.o"
 	@echo "... 分治法/binarySearch.i"
 	@echo "... 分治法/binarySearch.s"

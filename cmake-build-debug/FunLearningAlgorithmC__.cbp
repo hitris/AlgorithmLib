@@ -91,6 +91,9 @@
 		<Unit filename="/Users/liuchangyu/CLionProjects/AlgorithmLib/分治法/MergeSort.cpp">
 			<Option target="FunLearningAlgorithmC__"/>
 		</Unit>
+		<Unit filename="/Users/liuchangyu/CLionProjects/AlgorithmLib/分治法/QuickSort.cpp">
+			<Option target="FunLearningAlgorithmC__"/>
+		</Unit>
 		<Unit filename="/Users/liuchangyu/CLionProjects/AlgorithmLib/分治法/binarySearch.cpp">
 			<Option target="FunLearningAlgorithmC__"/>
 		</Unit>
